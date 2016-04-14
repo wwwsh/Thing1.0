@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgd"
+    tools:context=".MainPage">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/circle"
+        android:layout_marginBottom="90dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="160dp" />
+
+    <ImageButton
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:background="@drawable/setting"
+        android:id="@+id/setting"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="485dp"
+        />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/task"
+        android:id="@+id/toT"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="300dp"
+        />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/reminder"
+        android:id="@+id/toR"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="300dp"
+        />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/habit"
+        android:id="@+id/toH"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="300dp"
+        />
+
+</RelativeLayout>

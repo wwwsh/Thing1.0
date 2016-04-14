@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wsh.Thing">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="wsh.Thing.MainPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="wsh.Thing.TaskList" />
+        <activity android:name="wsh.Thing.ReminderList" />
+        <activity android:name="wsh.Thing.HabitList" />
+        <activity android:name="wsh.Thing.Setting" />
+        <activity android:name="wsh.Thing.plusTask" />
+        <activity android:name="wsh.Thing.plusReminder" />
+        <activity android:name="wsh.Thing.plusHabit" />
+        <activity android:name="wsh.Thing.LeftReminder" />
+        <activity android:name="wsh.Thing.LeftTask" />
+        <activity android:name="wsh.Thing.LeftHabit" />
+        <activity android:name="wsh.Thing.AboutMe"></activity>
+    </application>
+
+</manifest>

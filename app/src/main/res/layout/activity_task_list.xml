@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/backgd"
+tools:context="wsh.Thing.TaskList">
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:background="@drawable/left"
+        android:id="@+id/toleftT"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task1"
+        android:id="@+id/Task1"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 Apr"
+        android:id="@+id/Time1"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task2"
+        android:id="@+id/Task2"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="115dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 Apr"
+        android:id="@+id/Time2"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="115dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task3"
+        android:id="@+id/Task3"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="170dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15 Apr"
+        android:id="@+id/Time3"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="170dp"/>
+
+    <ImageButton
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:background="@drawable/setting"
+        android:id="@+id/setting"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="485dp"
+        />
+
+    <ImageButton
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:background="@drawable/plus"
+        android:id="@+id/plusT"
+        android:layout_marginLeft="268dp"
+        android:layout_marginTop="490dp"
+        />
+
+</RelativeLayout>
+
