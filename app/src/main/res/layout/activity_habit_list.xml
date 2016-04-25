@@ -21,7 +21,7 @@
         android:text="Habit1"
         android:id="@+id/Habit1"
         android:textColor="#FFFFFF"
-        android:textSize="18dp"
+        android:textSize="17dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="60dp"/>
 
@@ -62,7 +62,7 @@
         android:text="Habit2"
         android:id="@+id/Habit2"
         android:textColor="#FFFFFF"
-        android:textSize="18dp"
+        android:textSize="17dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="135dp"/>
 
@@ -102,7 +102,7 @@
         android:text="Habit3"
         android:id="@+id/Habit3"
         android:textColor="#FFFFFF"
-        android:textSize="18dp"
+        android:textSize="17dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="210dp"/>
 

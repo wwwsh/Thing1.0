@@ -1,10 +1,300 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:paddingRight="17dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgd"
     tools:context="wsh.Thing.plusReminder">
 
+    <ImageButton
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:background="@drawable/cg_event"
+        android:id="@+id/c1"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="0dp"
+        />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/cg_life"
+        android:id="@+id/c2"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="19dp"
+        />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/cg_birthday"
+        android:id="@+id/c3"
+        android:layout_marginLeft="233dp"
+        android:layout_marginTop="19dp"
+        />
+
+    <ImageButton
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@drawable/cg_holiday"
+        android:id="@+id/c4"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="95dp"
+        />
+
+    <ImageButton
+        android:layout_width="42dp"
+        android:layout_height="45dp"
+        android:background="@drawable/cg_love"
+        android:id="@+id/c5"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="97dp"
+        />
+
+    <ImageButton
+        android:layout_width="54dp"
+        android:layout_height="60dp"
+        android:background="@drawable/cg_fun"
+        android:id="@+id/c6"
+        android:layout_marginLeft="228dp"
+        android:layout_marginTop="87dp"
+        />
+
+    <ImageButton
+        android:layout_width="69dp"
+        android:layout_height="77dp"
+        android:background="@drawable/cg_study"
+        android:id="@+id/c7"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="159dp"
+        />
+
+    <ImageButton
+        android:layout_width="49dp"
+        android:layout_height="52dp"
+        android:background="@drawable/cg_work"
+        android:id="@+id/c8"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="174dp"
+        />
+
+    <ImageButton
+        android:layout_width="66dp"
+        android:layout_height="65dp"
+        android:background="@drawable/cg_add"
+        android:id="@+id/c9"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="166dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event"
+        android:id="@+id/event"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="65dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Life"
+        android:id="@+id/life"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="65dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday"
+        android:id="@+id/birthday"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:layout_marginLeft="228dp"
+        android:layout_marginTop="65dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holiday"
+        android:id="@+id/holiday"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="143dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Love"
+        android:id="@+id/love"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="143dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fun"
+        android:id="@+id/fun"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:layout_marginLeft="243dp"
+        android:layout_marginTop="143dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Study"
+        android:id="@+id/study"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="223dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work"
+        android:id="@+id/work"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="223dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/add"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:layout_marginLeft="242dp"
+        android:layout_marginTop="223dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:id="@+id/title"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="270dp"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTitle"
+        android:layout_alignTop="@+id/title"
+        android:layout_marginTop="-18dp"
+        android:layout_toRightOf="@+id/title"
+        android:layout_alignRight="@+id/switch1"
+        android:layout_alignEnd="@+id/switch1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:id="@+id/date"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="310dp"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateView"
+        android:textSize="17dp"
+        android:onClick="showDatePickerDialog"
+        android:layout_alignEnd="@+id/c9"
+        android:layout_alignTop="@+id/date"
+        android:layout_toEndOf="@+id/remindMe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remind Me"
+        android:id="@+id/remindMe"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="17dp"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Notification"
+        android:id="@+id/switch1"
+        android:layout_below="@+id/remindMe"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:checked="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:textSize="16dp"
+        android:textColor="#ffffff" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Notification"
+        android:id="@+id/switch2"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:checked="false"
+        android:layout_below="@+id/switch1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#00000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/save"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/description"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="488dp"
+        android:layout_marginLeft="258dp"/>
+
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonout"
+        android:id="@+id/savec"
+        android:layout_below="@+id/description"
+        android:layout_marginLeft="248dp"
+        android:layout_marginTop="479dp"
+        />
+
+
+    <ImageButton
+        android:layout_width="42dp"
+        android:layout_height="37dp"
+        android:id="@+id/selectReminder"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="-35dp"
+        android:background="@drawable/arrow"
+        android:layout_toEndOf="@+id/dateView" />
 
 </RelativeLayout>

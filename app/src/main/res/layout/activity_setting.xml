@@ -1,18 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="10dp"
+    android:paddingRight="17dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgd"
     tools:context="wsh.Thing.Setting">
 
     <ImageButton
-        android:layout_width="30dp"
-        android:layout_height="26dp"
-        android:background="@drawable/left"
-        android:id="@+id/left"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="18dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/setting"
+        android:id="@+id/c1"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="15dp"
         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/event"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="21dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sorting"
+        android:id="@+id/sorting"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="72dp"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theme"
+        android:id="@+id/theme"
+        android:layout_below="@+id/sorting"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password Lock"
+        android:id="@+id/passlock"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/font"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Font"
+        android:id="@+id/font"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/theme"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="17dp"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound"
+        android:id="@+id/sound"
+        android:layout_below="@+id/passlock"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:checked="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:textSize="16dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Backup"
+        android:id="@+id/backup"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/sound"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="17dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate App"
+        android:id="@+id/rate"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/backup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="17dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us"
+        android:id="@+id/contact"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/rate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="17dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version"
+        android:id="@+id/version"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/contact"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="17dp"/>
 
 </RelativeLayout>

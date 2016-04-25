@@ -12,4 +12,9 @@
         <item name="android:windowExitAnimation">@anim/out_righttoleft</item>
     </style>
 
+    <style name="AnimationFade2">
+        <item name="android:windowEnterAnimation">@anim/bottomtoup</item>
+        <item name="android:windowExitAnimation">@anim/uptobottom</item>
+    </style>
+
 </resources>
